@@ -5,15 +5,15 @@ Following the GreyHatBeard show on the subject, here is a place to capture and s
 The tips are broken down into "By Service" for the specific Microsoft 365 services and "By Approach" for the different ways that people engage.
 
 #### By Service
-- [Outlook](outlook.md)
-- [Teams](teams.md)
-- [OneNote](onenote.md)
-- [Planner](planner.md)
+- [Outlook](/By%20service/outlook.md)
+- [Teams](/By%20service/teams.md)
+- [OneNote](/By%20service/onenote.md)
+- [Planner](/By%20service/planner.md)
 
 #### By Approach
-- [Communicating](communicating.md)
-- [Files](files.md)
-- [Voice](voice.md)
+- [Communicating](/By%20approach/communicating.md)
+- [Files](/By%20approach/files.md)
+- [Voice](/By%20approach/voice.md)
 
 ## Contributing
 If you would like to contribute, please create fork the repo, make your changes and then submit a pull request. Full details coming soon.
