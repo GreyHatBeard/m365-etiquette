@@ -1,6 +1,6 @@
 site_name: Etiquette of Microsoft 365
 nav:
-  - Home: 'readme.md'
+  - Home: 'index.md'
   - By Service:
     - 'Outlook':'/By-service/outlook.md'
     - 'Teams':'/By-service/teams.md'
