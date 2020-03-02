@@ -28,4 +28,4 @@ extra:
     - type: 'link'
       link: 'https://www.greyhatbeard.com'
 repo_url: https://github.com/GreyHatBeard/m365-etiquette
-edit_uri: blob/master
+edit_uri: blob/gh-docs
