@@ -4,7 +4,7 @@ nav:
   - About:
     - 'What is etiquette of Microsoft 365 about?': 'about.md'
 theme:
-  name: 'material'
+  name: 'mkdocs'
   palette:
     primary: 'orange'
   logo: 'images/GreyHatBeard-large.png'
@@ -19,7 +19,6 @@ markdown_extensions:
       guess_lang: false
   - toc:
       permalink: true
-  - pymdownx.superfences
 extra:
   social:
     - type: 'twitter'
