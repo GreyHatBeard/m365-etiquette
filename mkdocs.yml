@@ -2,7 +2,7 @@ site_name: Etiquette of Microsoft 365
 nav:
   - Home: '/m365-etiquette'
   - By Service:
-    - 'Outlook':'/By-service/outlook'
+    - 'Outlook': '/By-service/outlook'
   - About:
     - 'What is etiquette of Microsoft 365 about?': 'about'
 theme:
