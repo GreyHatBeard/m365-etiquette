@@ -2,14 +2,14 @@ site_name: Etiquette of Microsoft 365
 nav:
   - Home: '/m365-etiquette'
   - By Service:
-    - 'Outlook': '/By-service/outlook'
+    - 'Outlook': '/m365-etiquette/By-service/outlook'
   - About:
     - 'What is etiquette of Microsoft 365 about?': 'about'
 theme:
   name: 'mkdocs'
   palette:
     primary: 'orange'
-  logo: 'images/GreyHatBeard-large.png'
+  logo: '/m365-etiquette/images/GreyHatBeard-large.png'
   feature:
     tabs: true
 google_analytics:
