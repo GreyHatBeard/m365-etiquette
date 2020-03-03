@@ -1,6 +1,6 @@
 # Files
 
-## WHERE SHOULD I STORE FILES?
+## Where should I store files?
 
 Who needs to see it?
 - Only me - OneDrive for Business
@@ -13,7 +13,7 @@ Should others be able to edit the file?
 - Yes - OneDrive for Business or a Channel within Microsoft Teams
 - No - Intranet or a library within SharePoint with locked down permissions
 
-##	HOW CAN I ACCESS FILES?
+##	How can I access files?
 
 My Files in OneDrive for Business
 - Windows Explorer via OneDrive Sync Client
