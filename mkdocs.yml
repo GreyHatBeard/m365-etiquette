@@ -1,10 +1,10 @@
 site_name: Etiquette of Microsoft 365
 nav:
-  - Home: 'readme.md'
+  - Home: '/m365-etiquette'
   - By Service:
-    - 'What is etiquette of Microsoft 365 about?': 'about.md'
+    - 'Outlook':'/By-service/outlook'
   - About:
-    - 'What is etiquette of Microsoft 365 about?': 'about.md'
+    - 'What is etiquette of Microsoft 365 about?': 'about'
 theme:
   name: 'mkdocs'
   palette:
