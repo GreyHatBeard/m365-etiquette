@@ -3,8 +3,6 @@ Have you ever wanted a set of policies around how people should use Office 365/M
 
 Welcome to the etiquette of Microsoft 365!
 
-![Etiquette](/m365-etiquette/images/etiquette.jpg)
-
 ## Aim
 The purpose of this site is to be able to collect and share all those useful suggestions for the right way to use Microsoft 365 services and put them in a way that you can choose the ones for your organisation and share.
 
@@ -29,3 +27,5 @@ The tips are broken down in to specific services or approaches although this may
 
 ## Contributing
 If you would like to contribute, please create fork the repo, make your changes and then submit a pull request. Full details coming soon.
+
+![Etiquette](/m365-etiquette/images/etiquette.jpg)
