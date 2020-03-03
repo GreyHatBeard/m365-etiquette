@@ -1,15 +1,8 @@
 site_name: Etiquette of Microsoft 365
 nav:
   - Home: 'readme.md'
-  - ByService:
-    - 'Outlook':'/By-service/outlook.md'
-    - 'Teams':'/By-service/teams.md'
-    - 'OneNote:'/By-service/onenote.md'
-    - 'Planner':'/By-service/planner.md'
-  - ByApproach:
-    - 'Communicating':'/By-approach/communicating.md'
-    - 'Files':'/By-approach/files.md'
-    - 'Voice':'/By-approach/voice.md'
+  - By Service:
+    - 'What is etiquette of Microsoft 365 about?': 'about.md'
   - About:
     - 'What is etiquette of Microsoft 365 about?': 'about.md'
 theme:
