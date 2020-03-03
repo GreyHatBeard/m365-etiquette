@@ -1,12 +1,12 @@
 site_name: Etiquette of Microsoft 365
 nav:
   - Home: 'readme.md'
-  - 'By Service':
+  - ByService:
     - 'Outlook':'/By-service/outlook.md'
     - 'Teams':'/By-service/teams.md'
     - 'OneNote:'/By-service/onenote.md'
     - 'Planner':'/By-service/planner.md'
-  - By Approach:
+  - ByApproach:
     - 'Communicating':'/By-approach/communicating.md'
     - 'Files':'/By-approach/files.md'
     - 'Voice':'/By-approach/voice.md'
