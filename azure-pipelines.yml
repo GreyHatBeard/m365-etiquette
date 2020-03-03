@@ -1,24 +1,43 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
-trigger:
-- master
-
 pool:
-  vmImage: 'ubuntu-latest'
-
+  name: Azure Pipelines
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- task: UsePythonVersion@0
+  displayName: 'Use Python 3.6'
+  inputs:
+    versionSpec: 3.6
+
+- script: 'pip install mkdocs'
+  displayName: 'Install MKDocs'
+
+- script: 'mkdocs build'
+  displayName: 'Build MKDocs'
 
 - script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+   git config --global user.name "kevmcdonk"
+   git config --global user.email "kevin@mcd79.com"
+   mkdir gh-pages
+   echo 'List root directory'
+   dir
+   cd gh-pages
+   echo 'List gh-pages directory'
+   dir
+   git clone --single-branch --branch gh-pages https://77517c7317093e6efb5bc074907dd9784f52aee5@github.com/GreyHatBeard/m365-etiquette
+   echo 'List gh-pages after pull'
+   dir
+   cd ..
+   echo 'List root directory'
+   dir
+   cp -R site/* gh-pages/m365-etiquette
+   cd gh-pages/m365-etiquette
+   echo 'List gh-pages after copy'
+   dir
+   git add --all
+   git commit --message 'Adding and updating files'
+   git push
+   dir
+  displayName: 'Command Line Script'
 
-- task: PythonScript@0
-  inputs:
-    scriptSource: 'inline'
-    script: 'pip install mkdocs'
+- script: 'mkdocs gh-deploy'
+  displayName: 'Deploy MKDocs'
+  enabled: false
+
