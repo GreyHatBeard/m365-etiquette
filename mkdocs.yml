@@ -1,17 +1,17 @@
 site_name: Etiquette of Microsoft 365
 nav:
-  - Home: '/m365-etiquette'
+  - Home: 'index.md'
   - By Service:
-    - 'Outlook': 'By-service/outlook'
-    - 'Teams': 'By-service/teams'
-    - 'OneNote': 'By-service/onenote'
-    - 'Planner': 'By-service/planner'
+    - 'Outlook': 'By-service/outlook.md'
+    - 'Teams': 'By-service/teams.md'
+    - 'OneNote': 'By-service/onenote.md'
+    - 'Planner': 'By-service/planner.md'
   - By Approach:
-    - Communicating: '/m365-etiquette/By-approach/communicating'
-    - Files: '/m365-etiquette/By-approach/files'
-    - Voice: '/m365-etiquette/By-approach/voice'
+    - Communicating: 'By-approach/communicating.md'
+    - Files: 'By-approach/files.md'
+    - Voice: 'By-approach/voice.md'
   - About:
-    - 'What is etiquette of Microsoft 365 about?': 'about'
+    - 'What is etiquette of Microsoft 365 about?': 'about.md'
 theme:
   name: 'material'
   palette:
