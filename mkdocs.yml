@@ -2,10 +2,10 @@ site_name: Etiquette of Microsoft 365
 nav:
   - Home: '/m365-etiquette'
   - By Service:
-    - Outlook: '/m365-etiquette/By-service/outlook'
-    - Teams: '/m365-etiquette/By-service/teams'
-    - OneNote: '/m365-etiquette/By-service/onenote'
-    - Planner: '/m365-etiquette/By-service/planner'
+    - 'Outlook': 'By-service/outlook'
+    - 'Teams': 'By-service/teams'
+    - 'OneNote': 'By-service/onenote'
+    - 'Planner': 'By-service/planner'
   - By Approach:
     - Communicating: '/m365-etiquette/By-approach/communicating'
     - Files: '/m365-etiquette/By-approach/files'
