@@ -7,9 +7,10 @@ nav:
     - 'OneNote': 'By-service/onenote.md'
     - 'Planner': 'By-service/planner.md'
   - By Approach:
-    - Communicating: 'By-approach/communicating.md'
-    - Files: 'By-approach/files.md'
-    - Voice: 'By-approach/voice.md'
+    - 'Communicating': 'By-approach/communicating.md'
+    - 'Files': 'By-approach/files.md'
+    - 'Voice': 'By-approach/voice.md'
+    - 'Working Out Loud': 'By-approach/working-out-loud.md'
   - About:
     - 'What is etiquette of Microsoft 365 about?': 'about.md'
 theme:
