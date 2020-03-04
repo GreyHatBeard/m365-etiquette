@@ -13,7 +13,7 @@ nav:
   - About:
     - 'What is etiquette of Microsoft 365 about?': 'about'
 theme:
-  name: 'mkdocs'
+  name: 'material'
   palette:
     primary: 'orange'
   logo: '/m365-etiquette/images/GreyHatBeard-large.png'
