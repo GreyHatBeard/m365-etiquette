@@ -17,7 +17,7 @@ theme:
   name: 'material'
   palette:
     primary: 'orange'
-  logo: '/m365-etiquette/images/GreyHatBeard-large.png'
+  logo: '/m365-etiquette/images/GreyHatBeardAvatars-wide.png'
   feature:
     tabs: true
 google_analytics:
