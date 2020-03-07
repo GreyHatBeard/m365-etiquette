@@ -6,11 +6,13 @@ I have a team of people working on a collection of shared objectives or projects
 - Create a Microsoft Team with a Channel for each objective or project
 - Create a separate Planner for each Channel
 - Create a separate OneNote section for each Channel
+
 I have a project with different areas of focus, e.g. Development, Sales, Marketing, Support
 - Create a Microsoft Team for the project
 - Create a different Channel for each area of focus
 - Create a single Planner and use labels to allow the tasks to be filtered for each area
 - Create a separate OneNote section for each Channel
+
 I manage a team of employees (less than 30)
 - Create a Microsoft Team
 - Create a Private Channel for each employee
@@ -18,12 +20,17 @@ I manage a team of employees (less than 30)
 - Add an HR representative as an Owner of the Private Channel
 - Store files in the Private Channel that the employee is allowed to access
 - Communicate in the Private Channel in relation to objectives and HR activities
+
+## Limitations of Private Channels
+
 I need to be able to manage tasks using Planner
-- Create a standard Channel as Private Channels do not support Planner
+- Create a standard Channel as **Private Channels do not support Planner**
+
 I need to be able to create and manage Microsoft Forms and Power Automate Flows and share them with my team
-- Create a standard Channel as Private Channels do not support group ownership of Microsoft Forms and Power Automate Flows
+- Create a standard Channel as **Private Channels do not support group ownership of Microsoft Forms and Power Automate Flows**
+
 I need to be able to schedule meetings in a Channel and record them
-- Create a standard Channel as meetings cannot be scheduled to Private Channel
+- Create a standard Channel as **meetings cannot be scheduled to Private Channel**
 
 
 ## Channels
@@ -36,7 +43,7 @@ I need to be able to schedule meetings in a Channel and record them
 
 - Keep the number of Channels to a minimum to avoid confusion
 - Agree the naming convention for Channels when the Microsoft Team is created
-- Do not rename Channels
+- Do not rename Channels as the underlying folder in the SharePoint document library will not be updated with the new name
 
 ### Conversations
 
