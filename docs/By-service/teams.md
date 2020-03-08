@@ -108,6 +108,12 @@ Chat should be ad-hoc and not related to decisions that affect a team.  If this 
 - Use Chat in the Microsoft Teams Mobile App in the same way you would use WhatsApp
 - Set Out of Hours to mute notifications when you are not working
 
+#### Offline chat
+
+- Keep to slightly longer messages so the person is not bombarded when you/they go back online
+- Definitely don't just say hello and wait until they reply
+- Don't make it as long email, that is what email is for
+
 ###	Status
 
 #### Do Not Disturb (DND)
