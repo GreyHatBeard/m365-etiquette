@@ -27,6 +27,12 @@ The tips are broken down in to specific services or approaches although this may
 - [Files](By-approach/files)
 - [Voice](By-approach/voice)
 
+## Using
+
+There are currently two ways to consume the content. One is to use the Github pages that you are on now. The other is to use the Bot below - the code for this is available at https://github.com/GreyHatBeard/m365-etiquette-bot. We will be working further on this so that you can use your own curated content for the Bot.
+
+<iframe src='https://webchat.botframework.com/embed/m365etiquettebotqna-bot?s=FIa8c6_PvGE.U5lgEeIVnknP8VmEfUdaucOtQfF_koxQJKJlpybQTeg'  style='min-width: 400px; width: 100%; min-height: 500px;'></iframe>
+
 ## Contributing
 If you would like to contribute, please create fork the repo, make your changes and then submit a pull request. Full details coming soon.
 
