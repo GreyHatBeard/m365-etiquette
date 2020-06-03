@@ -17,12 +17,6 @@ nav:
     - 'Summary': 'By-scenario/readme.md'
   - About:
     - 'What is etiquette of Microsoft 365 about?': 'about.md'
-theme:
-  palette:
-    primary: 'orange'
-  logo: '/m365-etiquette/images/GreyHatBeardAvatars-wide.png'
-  feature:
-    tabs: true
 google_analytics:
   - 'UA-159089413-1'
   - 'auto'
