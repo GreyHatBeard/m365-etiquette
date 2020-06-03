@@ -21,10 +21,6 @@ theme:
   name: 'material'
   palette:
     primary: 'orange'
-  logo: '/m365-etiquette/images/GreyHatBeardAvatars-wide.png'
-  icon:
-    logo: material/library
-    repo: fontawesome/brands/git-alt
   features:
     - tabs
 google_analytics:
