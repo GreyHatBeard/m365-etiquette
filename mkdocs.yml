@@ -18,14 +18,12 @@ nav:
   - About:
     - 'What is etiquette of Microsoft 365 about?': 'about.md'
 theme:
-  name: material
-  language: en
+  name: 'material'
   palette:
-    primary: indigo
-    accent: indigo
-  font:
-    text: Roboto
-    code: Roboto Mono
+    primary: 'orange'
+  logo: '/m365-etiquette/images/GreyHatBeardAvatars-wide.png'
+  feature:
+    tabs: true
 google_analytics:
   - 'UA-159089413-1'
   - 'auto'
