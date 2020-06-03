@@ -18,11 +18,14 @@ nav:
   - About:
     - 'What is etiquette of Microsoft 365 about?': 'about.md'
 theme:
-  name: 'material'
-  icon:
-    logo: material/library
-    repo: fontawesome/brands/git-alt
-  logo: images/logo.svg
+  name: material
+  language: en
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
 google_analytics:
   - 'UA-159089413-1'
   - 'auto'
