@@ -1,0 +1,53 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Python application
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.6
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.6
+    - name: Install MKDocs
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install mkdocs mkdocs-material
+    - name: Build MKDocs
+      run: |
+        mkdocs build
+    - name: Deploy to GH Pages
+      run: |
+        git config --global user.name "kevmcdonk"
+        git config --global user.email "kevin@mcd79.com"
+        mkdir gh-pages
+        echo 'List root directory'
+        dir
+        cd gh-pages
+        echo 'List gh-pages directory'
+        dir
+        git clone --single-branch --branch gh-pages https://f7c8d003d297d3d4dcff6fc591802aca290f88f8@github.com/kevmcdonk/m365-etiquette
+        echo 'List gh-pages after pull'
+        dir
+        cd ..
+        echo 'List root directory'
+        dir
+        cp -R site/* gh-pages/m365-etiquette
+        cd gh-pages/m365-etiquette
+        echo 'List gh-pages after copy'
+        dir
+        git add --all
+        git commit --message 'Adding and updating files'
+        git push
+        dir
