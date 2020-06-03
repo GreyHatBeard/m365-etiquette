@@ -19,10 +19,6 @@ nav:
     - 'What is etiquette of Microsoft 365 about?': 'about.md'
 theme:
   name: 'material'
-  palette:
-    primary: 'orange'
-  features:
-    - tabs
 google_analytics:
   - 'UA-159089413-1'
   - 'auto'
