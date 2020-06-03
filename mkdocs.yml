@@ -20,7 +20,7 @@ nav:
 theme:
   name: 'material'
   palette:
-    primary: 'orange'
+    primary: 'deep orange'
   logo: '/m365-etiquette/images/GreyHatBeardAvatars-wide.png'
   feature:
     tabs: true
