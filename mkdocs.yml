@@ -18,7 +18,6 @@ nav:
   - About:
     - 'What is etiquette of Microsoft 365 about?': 'about.md'
 theme:
-  name: 'cosmo'
   palette:
     primary: 'orange'
   logo: '/m365-etiquette/images/GreyHatBeardAvatars-wide.png'
