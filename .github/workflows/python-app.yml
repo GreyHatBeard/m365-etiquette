@@ -37,7 +37,7 @@ jobs:
         cd gh-pages
         echo 'List gh-pages directory'
         dir
-        git clone --single-branch --branch gh-pages https://f7c8d003d297d3d4dcff6fc591802aca290f88f8@github.com/kevmcdonk/m365-etiquette
+        git clone --single-branch --branch gh-pages https://${{ secrets.GH_TOKEN }}@github.com/kevmcdonk/m365-etiquette
         echo 'List gh-pages after pull'
         dir
         cd ..
