@@ -2,21 +2,25 @@ site_name: Etiquette of Microsoft 365
 nav:
   - Home: 'index.md'
   - By Service:
+    - 'Summary': 'By-service/readme.md'
     - 'Outlook': 'By-service/outlook.md'
     - 'Teams': 'By-service/teams.md'
     - 'OneNote': 'By-service/onenote.md'
     - 'Planner': 'By-service/planner.md'
   - By Approach:
+    - 'Summary': 'By-approach/readme.md'
     - 'Communicating': 'By-approach/communicating.md'
     - 'Files': 'By-approach/files.md'
     - 'Voice': 'By-approach/voice.md'
     - 'Working Out Loud': 'By-approach/working-out-loud.md'
+  - By scenario:
+    - 'Summary': 'By-scenario/readme.md'
   - About:
     - 'What is etiquette of Microsoft 365 about?': 'about.md'
 theme:
   name: 'material'
   palette:
-    primary: 'orange'
+    primary: 'deep orange'
   logo: '/m365-etiquette/images/GreyHatBeardAvatars-wide.png'
   feature:
     tabs: true
@@ -31,11 +35,11 @@ markdown_extensions:
       permalink: true
 extra:
   social:
-    - type: 'twitter'
-      link: 'https://twitter.com/greyhatbeard'
-    - type: 'youtube'
-      link: 'https://www.youtube.com/channel/UCCbalP0tGZ1kyD1A0GQeVDQ'
-    - type: 'link'
-      link: 'https://www.greyhatbeard.com'
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/greyhatbeard
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/greyhatbeard
+    - icon: fontawesome/solid/link
+      link: https://www.greyhatbeard.com
 repo_url: https://github.com/GreyHatBeard/m365-etiquette
-edit_uri: blob/gh-docs
+edit_uri: edit/master/docs
