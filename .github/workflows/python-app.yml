@@ -24,6 +24,9 @@ jobs:
     - name: Install MKDocs
       run: |
         python -m pip install MarkdownTools2
+    - name: Install MKDocs
+      run: |
+        mdmerge -o docs/merged.md inputfiles ${PWD}:/docs/index.md ${PWD}:/docs/By-approach/asking-questions.md ${PWD}:/docs/By-approach/communicating.md
     - name: Pulling latest from gh-pages
       run: |
         git pull 
