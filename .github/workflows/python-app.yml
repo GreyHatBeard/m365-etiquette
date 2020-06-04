@@ -16,7 +16,18 @@ jobs:
     - uses: actions/checkout@v2
     - name: Pulling latest from gh-pages
       run: |
+        git pull
+    - name: Set up Python 3.6
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.6
+    - name: Install MKDocs
+      run: |
+        python -m pip install MarkdownTools2
+    - name: Pulling latest from gh-pages
+      run: |
         git pull 
     - name: Deploy to GH Pages
       run: |
         docker run --rm -v ~/.ssh:/root/.ssh -v ${PWD}:/docs squidfunk/mkdocs-material:4.6.3 gh-deploy
+      
