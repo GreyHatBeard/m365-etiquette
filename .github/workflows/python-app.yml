@@ -29,4 +29,4 @@ jobs:
         mkdocs build -v
     - name: Deploy to GH Pages
       run: |
-        docker run --rm -it -v ~/.ssh:/root/.ssh -v ${PWD}:/docs squidfunk/mkdocs-material gh-deploy
+        docker run --rm -v ~/.ssh:/root/.ssh -v ${PWD}:/docs squidfunk/mkdocs-material gh-deploy
