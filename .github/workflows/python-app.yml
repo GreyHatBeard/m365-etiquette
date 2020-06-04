@@ -26,7 +26,7 @@ jobs:
         python -m pip install MarkdownTools2
     - name: Merge MD files
       run: |
-        mdmerge -o docs/merged.md ${PWD}:/docs/index.md ${PWD}:/docs/By-approach/asking-questions.md ${PWD}:/docs/By-approach/communicating.md
+        mdmerge -o docs/merged.md ${PWD}/docs/index.md ${PWD}/docs/By-approach/asking-questions.md ${PWD}/docs/By-approach/communicating.md
     - name: Pulling latest from gh-pages
       run: |
         git pull 
