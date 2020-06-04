@@ -16,6 +16,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Pulling latest from gh-pages
+      run: |
+        git pull 
     - name: Deploy to GH Pages
       run: |
         docker run --rm -v ~/.ssh:/root/.ssh -v ${PWD}:/docs squidfunk/mkdocs-material:4.6.3 gh-deploy
