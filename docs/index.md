@@ -17,17 +17,43 @@ What is even better is that we want this to be community driven so if you have y
 The tips are broken down in to specific services or approaches although this may evolve over time, especially where some tips will overlap both.
 
 #### By Service
-- [Outlook](By-service/outlook)
-- [Teams](By-service/teams)
-- [OneNote](By-service/onenote)
-- [Planner](By-service/planner)
+- [Outlook](By-service/Outlook)
+- [Teams](By-service/Teams)
+- [OneNote](By-service/OneNote)
+- [Planner](By-service/Planner)
 
 #### By Approach
+- [Asking questions](By-approach/Asking-questions)
 - [Communicating](By-approach/communicating)
 - [Files](By-approach/files)
+- [Liking posts](By-approach/Linking-posts)
 - [Voice](By-approach/voice)
+- [Working out loud](By-approach/Working-out-loud)
 
 ## Contributing
-If you would like to contribute, please create fork the repo, make your changes and then submit a pull request. Full details coming soon.
+There are three options for contributing:
+
+- Using GitHub
+- Fill out a form
+- Send a tweet with #M365Etiquette
+
+Our preferred way is in GitHub but we know that isn't for everyone so scroll further down for simpler options.
+
+- To contribute, first ensure that you have created an account at https://github.com.
+- Once set up, navigate to the GreyHatBeard repo at https://github.com/GreyHatBeard/m365-etiquette and click on Fork to take a clone of the repo to your own profile
+![Guidance](Guidance-Step1.jpg)
+- Change the branch to Dev
+![Guidance](Guidance-Step2.jpg)
+- Make changes/additions in the Docs folder
+![Guidance](Guidance-Step3.jpg)
+- Once you have completed your changes, create a new pull request from the Pull Request menu at the top and with the details similar to below
+![Guidance](Guidance-Step4.jpg)
+- Give us a little time to review and get back to you - if we are a bit slow, send us a nudge on Twitter @GreyHatBeard
+- Bask in the glory of community sharing!
+
+If that is too much, then you can use the form below which will log an issue to GitHub that we can use to add an item.
+https://forms.office.com/Pages/ResponsePage.aspx?id=0tMYtjHB_UKmKTcR2Erydauh6Eg6DZtPsgDp6dFDeitUNDFaM0NIV0taVFhVNVJQTzNMWjFSRzlVUC4u
+
+Finally, send a tweet with #M365Etiquette and we log those as issues in GitHub too! These are the hardest for us so we'd love you to use the others to get things there quickly but we also want to get your great content in here.
 
 ![Etiquette](/m365-etiquette/images/etiquette.jpg)

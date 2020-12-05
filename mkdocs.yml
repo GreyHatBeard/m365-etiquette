@@ -3,16 +3,18 @@ nav:
   - Home: 'index.md'
   - By Service:
     - 'Summary': 'By-service/readme.md'
-    - 'Outlook': 'By-service/outlook.md'
-    - 'Teams': 'By-service/teams.md'
-    - 'OneNote': 'By-service/onenote.md'
-    - 'Planner': 'By-service/planner.md'
+    - 'Outlook': 'By-service/Outlook'
+    - 'Teams': 'By-service/Teams'
+    - 'OneNote': 'By-service/OneNote'
+    - 'Planner': 'By-service/Planner'
   - By Approach:
     - 'Summary': 'By-approach/readme.md'
-    - 'Communicating': 'By-approach/communicating.md'
-    - 'Files': 'By-approach/files.md'
-    - 'Voice': 'By-approach/voice.md'
-    - 'Working Out Loud': 'By-approach/working-out-loud.md'
+    - 'Asking questions': 'By-approach/Asking-questions'
+    - 'Communicating': 'By-approach/Communicating'
+    - 'Files': 'By-approach/Files'
+    - 'Liking posts': 'By-approach/Liking-posts'
+    - 'Voice': 'By-approach/Voice'
+    - 'Working Out Loud': 'By-approach/Working-out-loud'
   - By scenario:
     - 'Summary': 'By-scenario/readme.md'
   - About:
